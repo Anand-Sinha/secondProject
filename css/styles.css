@@ -1,10 +1,9 @@
-body{
-  background-color: white;
-}
-body{
+html,body{
   margin:0;
 text-align: center;
 font-family: 'Quicksand', sans-serif;
+background-color: grey;
+height: 100%;
 }
 p{
   margin: 0;
@@ -17,40 +16,115 @@ h1{
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 110px;
+  font-size: 6.875rem;
   color: #6983AA;
 }
 .top-container{
     background-color: powderblue;
     position: relative;
-    padding: 160px;
+    padding: 40px;
 }
-
+.middle-container{
+  background: lightyellow;
+  padding: 40px;
+}
+.bottom-container{
+  background-color: lightgrey;
+  height: 60px;
+  width:500px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 .top-cloud{
-  height: 35%;
+  height: 300px;
   position: absolute;
   right: 0;
-  top: 80px;
+  top: 0;
 }
 .bottom-cloud{
-  height: 30%;
+  height: 350px;
   position: absolute;
   left:0;
   top: 300px;
 }
 .mountain{
   position: relative;
-  top: 220px;
+  top: 100px;
+  height: 50%;
 }
 .text{
   position: relative;
-  top: 70px;
+  top: 100px;
 }
 
 .me{
-  position: absolute;
+  position: fixed;
   top:30px;
   left: 70px;
   height: 100px;
   border-radius: 100%;
+}
+.psd{
+  float: left;
+}
+hr{
+  border-style: dotted;
+  border-width: 7px;
+  width:5%;
+  border-top: none;
+  border-color: lightgrey;
+}
+.bottom-container:hover{
+  background-color: white;
+}
+a,h3{
+  color: #11999E;
+}
+h2{
+  color: #66BFBF;
+}
+.sub{
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.c{
+  float: right;
+}
+.cpr{
+  font-size: 13px;
+  color: white
+}
+.link{
+  font-size: 18px;
+}
+.footer-link{
+  margin: 0 10px 0 10px;
+}
+a{
+  text-decoration: none;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:12px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
