@@ -88,13 +88,14 @@ h2{
   font-weight: normal;
 }
 .skill-row{
-  width: 50%;
+  width: 80%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
 }
 .c{
   float: right;
+  margin-bottom: 20px;
 }
 .cpr{
   font-size: 13px;
